@@ -194,7 +194,7 @@ TableauLanguolier.prototype.jouer = function() {
 	this.dessinerObjets();
 	this.dessinerTableau(this.id);
 	if(this.perdu()) {
-		alert("You lost ! Your did "+this.languolier.getScore()+" points.");
+		alert("You lost ! You did "+this.languolier.getScore()+" points.");
 		//envoyerScore(this.languolier.getScore());
 		return false;
 	}
