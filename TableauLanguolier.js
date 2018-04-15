@@ -194,12 +194,12 @@ TableauLanguolier.prototype.jouer = function() {
 	this.dessinerObjets();
 	this.dessinerTableau(this.id);
 	if(this.perdu()) {
-		alert("Vous avez perdu ! Votre score est de "+this.languolier.getScore()+" points.");
+		alert("You lost ! Your did "+this.languolier.getScore()+" points.");
 		//envoyerScore(this.languolier.getScore());
 		return false;
 	}
 	else if(this.gagne()) {
-		alert("Vous avez gagné ! Passage au niveau "+(this.niveau+1)+".");
+		alert("You won ! Going to level "+(this.niveau+1)+".");
 		this.languolier.setScore(this.languolier.getScore()+this.getPourc()*this.niveau);
 		this.rejouer();
 		return false;
