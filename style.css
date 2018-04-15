@@ -1,0 +1,50 @@
+	/*
+	*Gére la couleur du languolier
+	*/
+.languolier {
+	background-color:orange;
+}
+
+	/*
+	*Gére la couleur des ennemis
+	*/
+.humain {
+	background-color:lightblue;
+}
+
+	/*
+	*Gére la couleur des cases "pleinnes"
+	*/
+.plein {
+	background-color:black;
+}
+
+	/*
+	*Gére la couleur des cases "vides"
+	*/
+.vide {
+	background-color:white;
+}
+
+	/*
+	*Gére la couleur des cases "encours"
+	*/
+.encours {
+	background-color:grey;
+}
+
+	/*
+	*Gére la couleur des cases "infection"
+	*/
+.infection {
+	background-color:red;
+}
+
+	/*
+	*Réglage du tableau
+	*/
+#infos table, #infos tr, #infos td {
+border : 1px solid black;	
+border-collapse:collapse;
+padding :3px;
+}
